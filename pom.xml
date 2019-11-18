@@ -83,6 +83,14 @@
 		</dependency>
 
 	</dependencies>
+	
+	<distributionManagement>
+	<snapshotRepository>
+<id>artifactory</id>
+<name>Shilpa-snapshots</name>
+<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+</snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
